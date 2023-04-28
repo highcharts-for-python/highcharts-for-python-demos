@@ -1,6 +1,8 @@
 # Highcharts for Python Demos
 This is a collection of demonstrations of the Highcharts for Python toolkit. Fundamentally, they are a Python port of the fantastic demos that Highsoft has already published for their [Highcharts JavaScript library](https://www.highcharts.com/demo).
 
+> **WARNING:** The [MyBinder](https://mybinder.org) service which we use to provide a convenient demo environment is having some major capacity and infrastructure issues as of April 27th, 2023, mentioned [here](https://discourse.jupyter.org/t/mybinder-org-reducing-capacity-unstable/19163) and described in greater detail [here](https://blog.jupyter.org/mybinder-org-reducing-capacity-c93ccfc6413f). These issues may cause unstable behavior if trying to launch MyBinder with the demo repo. Hopefully, they will address their infrastructure issues soon. In the meantime, if you are having difficulty launching a binder, you can always use checkout the demo repo and run the demos locally in your environment as described below.
+
 ## Overview
 
 The demos showcase a variety of ways of working with Highcharts for Python to create and visualize data. Because Highcharts for Python provides multiple paths to create your visualizations, we have tried to showcase various methods. Some demos use:
@@ -37,6 +39,8 @@ Within each of these folders, you will find sub-folders grouping demos into a pa
   * the ``highcharts-core/python-features`` folder contains Notebooks which demonstrate some Python-specific features
 
 ### Using the Demos via MyBinder.org
+
+> **SEE WARNING ABOVE related to the current MyBinder infrastructure/capacity/stability issues.**
 
 The easy way to use or review the demos is to launch a MyBinder session using the following buttton: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/highcharts-for-python/highcharts-for-python-demos/HEAD)
 
